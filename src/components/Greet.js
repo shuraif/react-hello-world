@@ -5,8 +5,9 @@ import React from "react";
 // }
 
 export const Greet = props => (
-  <h1>
-    hello {props.name}
-    {props.dev}
-  </h1>
+ <div> <h1>
+    hello {props.name}</h1>{props.dep}
+    {props.children}
+    
+    </div>
 );
