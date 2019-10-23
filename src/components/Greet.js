@@ -4,4 +4,9 @@ import React from "react";
 //   return <h1>hello shuraif</h1>;
 // }
 
-export const Greet = () => <h1>hello world</h1>;
+export const Greet = props => (
+  <h1>
+    hello {props.name}
+    {props.dev}
+  </h1>
+);
