@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Greet name="Alien" dep=" dev" ><p>this is children</p></Greet>
       <Greet name="Geek" dep="coding" >
-        <button>click me</button>
+        <button>Press me</button>
       </Greet>
        <Welcome name="shuraif" />
     </div>
